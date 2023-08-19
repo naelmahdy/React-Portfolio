@@ -5,6 +5,7 @@ import javascript from "../assets/javascript.png";
 import reactJs from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.jpg";
 
 const Skills = () => {
   return (
@@ -16,7 +17,7 @@ const Skills = () => {
             Skills
           </p>
           <p className="py-4">
-            // these are the technologies that i've worked with 
+            // these are the technologies that i've worked with
           </p>
         </div>
 
@@ -34,24 +35,30 @@ const Skills = () => {
             <p className="my-4">CSS</p>
           </div>
           {/*__________________________________________________ */}
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={bootstrap} alt="bootstrap" />
+            <p className="my-4">Bootstrap</p>
+          </div>
+          {/*__________________________________________________ */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={javascript} alt="javascript" />
-            <p className="my-4">javascript</p>
+            <p className="my-4">Javascript</p>
           </div>
           {/*__________________________________________________ */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={reactJs} alt="reactJs" />
-            <p className="my-4">reactJs</p>
+            <p className="my-4">React Js</p>
           </div>
           {/*__________________________________________________ */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={github} alt="github" />
-            <p className="my-4">github</p>
+            <p className="my-4">Github</p>
           </div>
           {/*__________________________________________________ */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={tailwind} alt="tailwind" />
-            <p className="my-4">tailwind</p>
+            <p className="my-4">Tailwind Css</p>
           </div>
           {/*__________________________________________________ */}
         </div>
